@@ -11,6 +11,12 @@ import LT22 from './Demo2/LT22'
 import LT23 from './Demo2/LT23'
 import LT24 from './Demo2/LT24'
 import Main from './Lab2/Bai1/Main'
+import L31 from './L3/L31'
+import L32 from './L3/L32'
+import L33 from './L3/L33'
+import Bai31 from './Lab3/Bai1'
+import Bai32 from './Lab3/Bai2'
+import Bai33 from './Lab3/Bai3'
 const App = () => {
   return (
 
@@ -21,7 +27,13 @@ const App = () => {
     // <Bai3></Bai3>
 
 //Lab2
-  <Main></Main>    
+  // <Main></Main>    
+
+//Lab3
+
+    // <Bai31></Bai31>
+    // <Bai32></Bai32>
+    <Bai33></Bai33>
   )
 }
 
