@@ -17,6 +17,7 @@ import L33 from './L3/L33'
 import Bai31 from './Lab3/Bai1'
 import Bai32 from './Lab3/Bai2'
 import Bai33 from './Lab3/Bai3'
+import L41 from './Demo4/L41'
 const App = () => {
   return (
 
@@ -33,7 +34,9 @@ const App = () => {
 
     // <Bai31></Bai31>
     // <Bai32></Bai32>
-    <Bai33></Bai33>
+    // <Bai33></Bai33>
+
+    <L41></L41>
   )
 }
 
