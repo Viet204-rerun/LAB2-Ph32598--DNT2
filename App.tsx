@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import L11 from './L1/L11'
 import Bai1 from './Lab1/Bai1'
@@ -18,6 +18,12 @@ import Bai31 from './Lab3/Bai1'
 import Bai32 from './Lab3/Bai2'
 import Bai33 from './Lab3/Bai3'
 import L41 from './Demo4/L41'
+import Bai43 from './Lab4/Bai43'
+import { playlist } from './Lab4/playbackService'
+import MusicPlayer from './Lab4/MusicPlayer'
+import MusicPlayer1 from './Lab4/Bai43'
+import Bai41 from './Lab4/Bai41'
+import Bai42 from './Lab4/Bai42'
 const App = () => {
   return (
 
@@ -35,8 +41,13 @@ const App = () => {
     // <Bai31></Bai31>
     // <Bai32></Bai32>
     // <Bai33></Bai33>
-
-    <L41></L41>
+    // <Bai43></Bai43>
+    // <Bai43></Bai43>
+    // <playbackService1></playbackService1>
+    // <MusicPlayer1 playlist={playlist}></MusicPlayer1>
+    // <MusicPlayer />
+    // <Bai41></Bai41>
+    <Bai42></Bai42>
   )
 }
 
